@@ -80,17 +80,22 @@
   }
 }
 
+
+
+
 .callout-title {
   display: flex;
   gap: 5px;
   padding: 1rem 0;
   color: var(--color);
+  cursor: pointer;
 
   & .fold {
     margin-left: 0.5rem;
     transition: transform 0.3s ease;
     opacity: 0.8;
     cursor: pointer;
+    padding-top: 8px;
   }
 
   & > .callout-title-inner > p {
@@ -103,7 +108,7 @@
   width: 18px;
   height: 18px;
   flex: 0 0 18px;
-  padding-top: 4px;
+  padding-top: 8px;
 }
 
 .callout-title-inner {

@@ -22,23 +22,15 @@ export default ((userOpts?: Partial<Options>) => {
         <h3>{opts.title}</h3>
         <ul>
           <li>
-            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/portfolio/posts">Posts</a></h3>
-            <i>where I share what I've learned</i>
-          </li>
-          <li>
             <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/portfolio/projects">Projects</a></h3>
             <i>cool things I've made</i>
           </li>
           <li>
-            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/portfolio/system-design">System Design</a></h3>
-            <i>Learning notes about system design</i>
+            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/portfolio/blog">Blog</a></h3>
+            <i>where I share what I've learned</i>
           </li>
           <li>
-            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/portfolio/random">Random</a></h3>
-            <i>Learning notes about random things</i>
-          </li>
-          <li>
-            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/portfolio/life">Life</a></h3>
+            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/portfolio/hackathons-and-coding-competitions">Hackathons And Competitions</a></h3>
             <i>where I write about my adventures</i>
           </li>          
         </ul>

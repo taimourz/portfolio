@@ -1,7 +1,6 @@
 ---
 title: Tips and Tricks to Ace your IELTS exam
 date: 2025-09-22
-tags: ielts, random
 ---
 
 
