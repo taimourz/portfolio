@@ -198,16 +198,6 @@ article p, article li{
 //   background: #9ca665;
 // }
 
-:root {
-  --article-bg: #E7E0CB;
-  --article-text: #323028;
-}
-
-:root[saved-theme="dark"] {
-  --article-bg: #323028;
-  --article-text: #ebebec;
-}
-
 
 
 .article-header {
@@ -230,4 +220,11 @@ article p, article li{
 
 .article-header a {
   background-color: transparent;
+}
+
+/* Hide article titles on index-like pages */
+[data-slug$="/index"] .popover-hint .article-title,
+[data-slug="/"] .popover-hint .article-title,
+[data-slug="index"] .popover-hint .article-title {
+  display: none !important;
 }

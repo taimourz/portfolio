@@ -1,35 +1,98 @@
 @use "../../styles/variables.scss" as *;
 
-ul.section-ul {
-  list-style: none;
-  margin-top: 2em;
-  padding-left: 0;
-}
-
-li.section-li {
-  margin-bottom: 1em;
-
-  & > .section {
+  ul.section-ul {
     display: grid;
-    grid-template-columns: 6em 3fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+  }
 
-    @media all and (max-width: $mobileBreakpoint) {
-      & > .tags {
-        display: none;
+  li.section-li {
+    position: relative;
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.2s ease;
+    background-color: var(--article-bg);
+    z-index: 1;
+
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      height: 100%;
+
+      .meta {
+        font-size: 0.85rem;
+        opacity: 0.7;
+        margin: 0;
+      }
+
+      .desc {
+        flex: 1;
+
+        h3 {
+          margin: 0;
+          font-size: 1.1rem;
+
+          a {
+            text-decoration: none;
+            background-color: transparent;
+
+            &:hover {
+              color: var(--secondary);
+            }
+
+            &::after {
+              content: "";
+              position: absolute;
+              inset: 0;
+            }
+          }
+        }
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          margin: 0;
+        }
+
+        a {
+          font-size: 0.75rem;
+          padding: 0.25rem 0.5rem;          
+          border-radius: 4px;
+          text-decoration: none;
+
+          &:hover {
+            background-color: var(--secondary);
+            color: var(--light);
+          }
+        }
       }
     }
+  }
 
-    & > .desc > h3 > a {
-      background-color: transparent;
-    }
-
-    & > .meta {
-      margin: 0;
-      flex-basis: 6em;
-      opacity: 0.6;
+  // Mobile responsive
+  @media (max-width: 600px) {
+    ul.section-ul {
+      grid-template-columns: 1fr;
     }
   }
-}
 
 // modifications in popover context
 .popover .section {
