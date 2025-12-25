@@ -218,8 +218,16 @@ article p, article li{
   padding-top: 5px;
 }
 
+.txt-center {
+  text-align: center;
+}
+
 .article-header a {
   background-color: transparent;
+}
+
+.external a {
+  background-color: transparent !important;
 }
 
 /* Hide article titles on index-like pages */
@@ -228,3 +236,8 @@ article p, article li{
 [data-slug="index"] .popover-hint .article-title {
   display: none !important;
 }
+
+.highlight {
+    color: #e35b5b !important;
+    padding: 0 .1rem;
+} 

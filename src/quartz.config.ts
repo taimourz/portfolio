@@ -13,11 +13,13 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", ".obsidian"],
     defaultDateType: "created",
     theme: {
-      typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
-      },
+    typography: {
+      header: "Cinzel",
+      // header: "Schibsted Grotesk",      
+      body: "Fira Sans",
+      // body: "Source Sans Pro",
+      code: "IBM Plex Mono",
+    },  
       colors: {
         lightMode: {
           light: "#f5f2e9",

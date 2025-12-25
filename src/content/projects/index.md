@@ -22,7 +22,7 @@ permalink: projects
 
   **Tech:** Ruby
 
-  A Ruby gem that reads OpenAPI specifications and automatically generates type-safe client SDKs in multiple languages (Ruby and JavaScript).
+   A Ruby gem that reads OpenAPI specifications and automatically generates type-safe client SDKs in multiple languages (Ruby and JavaScript).
 </div>
 
 

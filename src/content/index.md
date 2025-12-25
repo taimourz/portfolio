@@ -2,9 +2,14 @@
 title: Portfolio 
 ---
 
-<div class="article-header">
+<div class="article-header txt-center">
 
 # Introduction
+</div>
+
+<div class="external" style="text-align:center; background-color: transparent !important;">
+
+ [Github](https://github.com/taimourz) | [Linkedin](http://linkedin.com/in/taimourafzalkhan) | [Leetcode](https://leetcode.com/u/taimourz/) | [Blog](/blog) | taimour.ffcb@gmail.com
 
 </div>
 
@@ -12,10 +17,11 @@ title: Portfolio
 <div class="welcome">
 <div>
 
-My name is Taimour Afzal. I'm a Software/infrastructure engineer, and am at my happiest when I'm building <i>something cool</i>.
+My name is Taimour Afzal. I'm a <span class="highlight">Fullstack/Infrastructure Engineer</span>, based in <span class="highlight">Islamabad Pakistan</span>
 
+My Tech Stack: <span class="highlight">Ruby on Rails, </span> <span class="highlight">Node, </span> <span class="highlight">React, </span> <span class="highlight">Nextjs, </span> <span class="highlight">FAST API</span>
 
-Here you will find a mix of notes, longer/more thoughtful posts, and links to various things I've done
+I am at my happiest when I'm building <i>something cool</i>. Here you will find a mix of notes, longer/more thoughtful posts, and links to various things I've done
 
 </div>
 
@@ -26,12 +32,24 @@ Here you will find a mix of notes, longer/more thoughtful posts, and links to va
 
 </div>
 
+<div class="article-header txt-center">
 
-<div class="article-header">
+# Professional Experience
+
+2+ YOE working in Product/Service based companies. Previously, I have worked at
+
+</div>
+
+- [Appical](https://www.appical.com/)
+- [Fruitful](https://www.meetfruitful.com/)
+- [Arkhitech](https://www.arkhitech.com/)
+
+
+<div class="article-header txt-center">
 
 # [Projects](/projects)
 
-Over the years I've built a lot of things, Here are some of my personal projects
+Over the years I've built a lot of things, Here are some of my projects
 
 </div>
 
@@ -44,19 +62,8 @@ Over the years I've built a lot of things, Here are some of my personal projects
   - Chess Game
 
 
-<div class="article-header">
 
-# [Blog](/blog)
-
-Here are some things I have written about
-
-</div>
-
-- Tutorials
-- System Design
-- My learning notes on different topics
-
-<div class="article-header">
+<div class="article-header txt-center">
 
 # [Hackathons and Coding Competitions](/hackathons-and-coding-competitions)
 
@@ -77,30 +84,19 @@ Here are some things I have written about
 
 
 
+<div class="txt-center article-header">
 
+# [Blog](/blog)
 
-<div class="article-header">
-
-# Work
-
-Previously I have worked at: 
+Here are some things I have written about
 
 </div>
 
-- [Appical](https://www.appical.com/)<br>
-- [Fruitful](https://www.meetfruitful.com/)<br>
-- [Arkhitech](https://www.arkhitech.com/)<br>
+- Tutorials
+- System Design
+- My learning notes on different topics
 
 
-<div class="article-header">
 
-# Contact
 
-Please do get in touch!
 
-</div>
-
-- Email: taimour.ffcb@gmail.com<br>
-- GitHub: [@taimourz](https://github.com/taimourz)<br>
-- Leetcode: [@taimourz](https://leetcode.com/u/taimourz/)<br>
-- Linkedin: [@taimourafzalkhan](http://linkedin.com/in/taimourafzalkhan)<br>
