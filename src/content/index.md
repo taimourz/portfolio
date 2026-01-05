@@ -93,7 +93,6 @@ Here are some things I have written about
 </div>
 
 - Tutorials
-- System Design
 - My learning notes on different topics
 
 

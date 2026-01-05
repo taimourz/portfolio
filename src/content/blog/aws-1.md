@@ -159,7 +159,7 @@ Or we do SSH from our laptop into this instance.
 ![[aws6a.png]]
 ![[aws7.png]]
 
-> Now we have successfully done SSH. Our terminal became the terminal of EC2. You can verify the IP address “172:31:1:187” of the below image to the private IP address of our instance that is visible in the image of
+> Now we have successfully done SSH. Our terminal became the terminal of EC2. You can verify the IP address “172:31:15:226” of the below image to the private IP address of our instance that is visible in the image of
 
 
 #### Step 9
@@ -214,7 +214,7 @@ You can see, currently, only ssh is allowed. Click on the “Edit inbound rules�
 
 ![[aws12.png]]
 
-## 5.Destroy the EC2 Instance
+## 5. Destroy the EC2 Instance
 
 - Terminate the instance that you have created. Otherwise, you might get a bill if you are not in the free-tier.
 
