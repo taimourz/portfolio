@@ -241,3 +241,8 @@ article p, article li{
     color: #e35b5b !important;
     padding: 0 .1rem;
 } 
+
+:root:not([saved-theme="dark"]) body {
+  background-image: url("/static/bg.png") !important;
+  margin: 0;
+}
