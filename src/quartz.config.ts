@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "taimourz.github.io/portfolio",
+    baseUrl: "taimourafzal.xyz",
     ignorePatterns: ["private", ".obsidian"],
     defaultDateType: "created",
     theme: {
