@@ -9,7 +9,7 @@ title: Portfolio
 
 <div class="external" style="text-align:center; background-color: transparent !important;">
 
- [Github](https://github.com/taimourz) | [Linkedin](http://linkedin.com/in/taimourafzalkhan) | [Leetcode](https://leetcode.com/u/taimourz/) | [Blog](/blog) | taimour.ffcb@gmail.com
+ [Github](https://github.com/taimourz) | [Linkedin](http://linkedin.com/in/taimourafzalkhan) | [Leetcode](https://leetcode.com/u/taimourz/) | [Blog](/blog) | taimourz.dev@gmail.com
 
 </div>
 
@@ -65,22 +65,25 @@ Over the years I've built a lot of things, Here are some of my projects
 
 <div class="article-header txt-center">
 
-# [Hackathons and Coding Competitions](/hackathons-and-coding-competitions)
+# [Coding Competitions](/coding-competitions)
 
 </div>
 
-  - Coding Competitions
-    1. Advent of Code 2025
-    2. MIT informatics Tournament Fall 2025
-    3. UC Berkley Calico Coding Competition 2025
-    4. Meta Hacker Cup 2025
+  1. Advent of Code 2025
+  2. MIT informatics Tournament Fall 2025
+  3. UC Berkley Calico Coding Competition 2025
+  4. Meta Hacker Cup 2025
+
+<div class="article-header txt-center">
+
+# [Hackathons](/hackathons)
+
+</div>
 
 >   
-
-  - Hackathons
-    1. IBM watsonx Orchestrate 2025
-    2. NASA Space Apps Challenge 2025
-    5. United Nations World Innovation Day Hackathon 2023
+  1. IBM watsonx Orchestrate 2025
+  2. NASA Space Apps Challenge 2025
+  5. United Nations World Innovation Day Hackathon 2023
 
 
 

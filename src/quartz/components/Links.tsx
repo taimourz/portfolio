@@ -30,9 +30,13 @@ export default ((userOpts?: Partial<Options>) => {
             <i>where I share what I've learned</i>
           </li>
           <li>
-            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/hackathons-and-coding-competitions">Hackathons And Competitions</a></h3>
+            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/coding-competitions">Coding Competitions</a></h3>
             <i>where I write about my adventures</i>
           </li>          
+          <li>
+            <h3 style={{marginTop: 0, marginBottom: 0}}><a href="/hackathons">Hackathons</a></h3>
+            <i>projects built with teams</i>
+          </li>
         </ul>
       </div>
     )

@@ -4,7 +4,57 @@ date: 2023-09-01
 permalink: projects
 ---
 
+# Projects
+
 --- 
+
+<div class="article-header">
+  <div class="showcase">
+    <h3 class="showcase-title">Dawn News Archive</h3>
+    <div style="display:flex; flex-direction:column;">    
+      <a href="https://github.com/taimourz/Dawn-news-archive" target="_blank" class="showcase-link">
+        Explore GitHub
+      </a>
+      <a href="https://dawn.taimourafzal.xyz/" target="_blank" class="showcase-link">
+        Live
+      </a>
+    </div>
+
+  </div>
+
+  **Tech Stack:** 
+  >
+  - FASTAPI, React, Hugging Face Spaces for hosting
+
+>
+
+   Inspired from [forty.news](https://forty.news/), it shows news from the same day 12 years ago. it offers a perspective on where we were, where we are now, and whether things actually changed.
+
+</div>
+
+
+</div>
+
+<div class="article-header">
+  <div class="showcase">
+    <h3 class="showcase-title">Store Data in URLs</h3>
+    <div style="display:flex; flex-direction:column;">    
+      <a href="https://github.com/taimourz/excalidraw-url-exporter" target="_blank" class="showcase-link">
+        Explore GitHub
+      </a>
+      <a href="https://excalidraw.taimourafzal.xyz/" target="_blank" class="showcase-link">
+        Live
+      </a>
+    </div>
+
+  </div>
+
+  **Tech Stack:** 
+  >
+  - React
+
+   A lightweight web application that demonstrates how to store and share data directly in URLs, inspired by [Excalidraw's](https://excalidraw.com/) link-sharing feature.
+</div>
 
 <div class="article-header">
   <div class="showcase">
@@ -20,9 +70,11 @@ permalink: projects
 
   </div>
 
-  **Tech:** Ruby
+  **Tech Stack:** 
+  >
+  - Ruby
 
-   A Ruby gem that reads OpenAPI specifications and automatically generates type-safe client SDKs in multiple languages (Ruby and JavaScript).
+   A Ruby gem that reads [OpenAPI specifications](https://www.openapis.org/) and automatically generates type-safe client SDKs in multiple languages (Ruby and JavaScript).
 </div>
 
 
@@ -35,9 +87,11 @@ permalink: projects
     </a>
   </div>
 
-  **Tech:** Nodejs
+  **Tech Stack:** 
+  >
+  - Nodejs, Heroku
 
-  A weather app that Geocodes user-input locations using Weatherstack API to latitude/longitude and retrieves live weather data using Mapbox API.
+  A weather app that Geocodes user-input locations using [Weatherstack API](https://weatherstack.com/) to latitude/longitude and retrieves live weather data using [Mapbox API](https://www.mapbox.com/).
 
   > [!info]- Click Here to see Demo
   >
@@ -52,13 +106,39 @@ permalink: projects
 
 <div class="article-header">
   <div class="showcase">
+    <h3 class="showcase-title">Task Manager API (CRUD)</h3>
+    <a href="https://github.com/taimourz/Task-Management-CRUD" target="_blank" class="showcase-link">
+      Explore GitHub
+    </a>
+  </div>
+
+  **Tech Stack:** 
+  >
+  - Nodejs Mongodb
+
+A RESTful CRUD app built with Node.js and Express.js for managing tasks and users.
+
+> [!info]- Click Here to see Details
+ > Implements features such as
+ > - JWT Authentication
+ > - Hashing using bcrypt
+ > - Multi-device Token Management
+ > - Protected Routes
+ > - Email notifications on user registration and account cancellation (via SendGrid)
+
+</div>
+
+<div class="article-header">
+  <div class="showcase">
     <h3 class="showcase-title">Notes App Cli</h3>
     <a href="https://github.com/taimourz/Notes_app_cli" target="_blank" class="showcase-link">
       Explore GitHub
     </a>
   </div>
 
-  **Tech:** Nodejs
+  **Tech Stack:** 
+  >
+  - Nodejs
 
   A simple command-line notes management app built using Node.js. You can add, remove, list, and read notes directly from your terminal.
 
@@ -80,9 +160,11 @@ permalink: projects
   </a>
 </div>
 
-**Tech:** Ruby, React, PostgreSQL
+**Tech Stack:** 
+  >
+  - Ruby, React, PostgreSQL
 
-
+This is an online Ecommerce Store that gives you the ability to navigate through it using voice commands
 
 > [!info]- Click Here to see details
 >
@@ -93,7 +175,6 @@ permalink: projects
 >      <div class="showcase-header">
 >        <h3>Ecommerce Store controlled with Voice Navigation</h3>
 >      </div>
->      <p>This is an online Ecommerce Store that gives you the ability to navigate through it using voice commands</p>
 >    </div>
 >  </div>
 ></div>
@@ -113,7 +194,12 @@ permalink: projects
   </a>
 </div>
 
-**Tech:** Java  
+
+**Tech Stack:** 
+  >
+  - Java
+
+Online Shopping Store with product browsing, search, and detailed views. Implemented a cart and checkout system with via RESTful APIs.
 
 > [!info]- Click Here to see details
 >
@@ -124,7 +210,6 @@ permalink: projects
 >      <div class="showcase-header">
 >        <h3>Online Store</h3>
 >      </div>
->      <p>Online Shopping Store with product browsing, search, and detailed views. Implemented a cart and checkout system with via RESTful APIs.</p>
 >    </div>
 >  </div>
 ></div>
@@ -145,8 +230,9 @@ permalink: projects
     </a>
   </div>
 
-
-  **Tech:** Javascript  
+  **Tech Stack:** 
+  >
+  - Javascript
 
   A Basic chess game that follows all the rules. Special Rules like En passant are not implemented.
 
@@ -169,7 +255,9 @@ permalink: projects
     </a>
   </div>
 
-  **Tech:** HTML, Javascript, Scss
+  **Tech Stack:** 
+  >
+  - HTML, Javascript, Scss
 
   Multiple Landing Pages created with Pure Html Javascript and Scss
 

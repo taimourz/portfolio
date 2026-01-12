@@ -1,4 +1,5 @@
 ---
-title: "Posts"
+title: Blog
 ---
 
+# Blog
