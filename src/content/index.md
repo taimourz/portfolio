@@ -53,7 +53,10 @@ Over the years I've built a lot of things, Here are some of my projects
 
 </div>
 
+  - Dawn News Archive
+  - Store Data in URLs
   - OpenAPI SDK Generator Gem
+  - Task Manager API (CRUD)
   - Ecommerce Store - Voice Navigation
   - Weather App
   - Notes App Cli
