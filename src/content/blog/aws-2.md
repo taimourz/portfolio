@@ -23,6 +23,11 @@ tags: aws
 
 We use SSDs or HDD for storage in laptops and computers. Similarly, we EBS volume is nothing but storage we use for our EC2 instance. 
 
+There are generally two kinds of storage types in EC2 servers:
+1. Instance Store
+2. EBS Volumes
+
+
 ### Instance Store
 
 This is the storage type that is physically attached to the host machine (EC2) running. Data on an instance store is lost when the instance stops or terminates.
