@@ -56,7 +56,7 @@ Most of the time in the real world, we use horizontal scaling.
 
 ## 2. Load Balancer and Target Groups
 
-We have already studied the role of load balancers. It takes the incoming request and sends it to the least busy server.
+It takes the incoming request and sends it to the least busy server.
 
 AWS provides 3 types of load balancers:
 
@@ -70,7 +70,7 @@ We will only study ALB because it is the most used load balancer in the industri
 
 ALB doesn't send the request directly to the EC2 instance. It sends the request to the target group. If we want this request to reach the EC2 instance, then we need to attach this target group to the EC2 instance.
 
-Target Group TG1 is attached to the application load balancer, so it is sending all the incoming requests to the EC2 instances which has Target Group TG1 attached.
+**Eg**: Target Group TG1 is attached to the application load balancer, so it is sending all the incoming requests to the EC2 instances which has Target Group TG1 attached.
 
 ### Features of ALB
 
@@ -174,7 +174,7 @@ pm2 start src/index.js --name task-manager-1
 #### Step 1
 
 - Select `Load Balancers` from left sidebar.
-- Give it a name, mine is `taimour-alb-tutorial`
+- Give it a name, mine is `taimour-lb`
 
 ![[aws38.png]]
 
@@ -237,7 +237,7 @@ Finally, You can see it gave us a DNS name (not an IP Address). You can hit this
 
 ### 6. Configure Routing Rules
 
-Now, we will set a rule so that requests with a specific path (like `/node/*`) will go to TG-node target group, while all other requests go to TG-webapp (the default target group).
+Now, we will set a rule so that requests with a specific path (like `/node`) will go to TG-node target group, while all other requests go to TG-webapp (the default target group).
 
 #### Step 1
 
@@ -249,11 +249,11 @@ Now, we will set a rule so that requests with a specific path (like `/node/*`) w
 
 - Give any name.
 - In conditions section, select path and add custom path
-- At the end give it a priority to this rule. I have given 1. This way if paths are conflicting then higher priority will be choosen
+- At the end, give it a priority to this rule. I have given 1. This way if paths are conflicting then higher priority will be choosen
 
 > Since I have added `/node`, Now all the request with `/node` will go to TG-node target group.
-
-> In the real world, what we do is, configure rules such that requests with `/` go in Home microservice, requests with `/api/*` go on API microservice, requests with `/admin/*` go on Admin Panel microservice and so on. I have shown the same thing in this tutorial. I hope you understand it.
+>
+> In the real world, what we do is, configure rules such that requests with `/` go in Home microservice, requests with `/api/*` go on API microservice, requests with `/admin/*` go on Admin Panel microservice and so on.
 
 ![[aws50.png]]
 
